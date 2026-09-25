@@ -17,7 +17,5 @@ For Python, install `python -m pip install -r python/requirements.txt`, then ope
 
 For Power BI, open Retail_PowerBI/Retail.pbip, click Refresh and review the report. Save As PBIX if your institution requires PBIX. Report definitions pass Microsoft JSON schema validation, but Power BI Desktop rendering and refresh have not been verified. Native Excel pivot refresh was also not available for testing; pivot/cache definitions and saved values were checked structurally.
 
-## Key findings
-Sales $2,297,200.86; profit $286,397.02; margin 12.47%. West leads sales. No main category is loss-making; Tables, Bookcases and Supplies lose money. Monthly regression holds out 2017 and achieves MAE $10,793.89 and R-squared 0.681, versus baseline MAE $15,467.89. The 2018 projection is historical, not a current-year forecast.
 
 
